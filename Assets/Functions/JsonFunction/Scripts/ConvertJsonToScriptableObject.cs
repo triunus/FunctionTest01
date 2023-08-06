@@ -13,11 +13,11 @@ public class ConvertJsonToScriptableObject : MonoBehaviour
 
     private void Test()
     {
-        for(int i = 0; i < this.jsonStageDB.Stages.Count; ++i)
+/*        for(int i = 0; i < this.jsonStageDB.Stages.Count; ++i)
         {
             Debug.Log(this.jsonStageDB.Stages[i].StageNumber + ", " +
                 this.jsonStageDB.Stages[i].Width + ", " +
                 this.jsonStageDB.Stages[i].Height);
-        }
+        }*/
     }
 }
