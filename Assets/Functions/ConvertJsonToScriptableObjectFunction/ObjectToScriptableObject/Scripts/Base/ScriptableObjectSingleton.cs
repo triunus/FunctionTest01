@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ScriptableObjectManager
+namespace ScriptableObjectSystem
 {
 
         // T 클래스는 ScriptableObject를 상속받은 상태라는 것을 명시해준다.
@@ -20,7 +20,8 @@ namespace ScriptableObjectManager
             {
                 if (ScriptableObjectSingleton<T>.instance_ == null)
                 {
-                    ScriptableObjectSingleton<T>.instance_ = Resources.Load<T>(typeof(T).ToString());
+                    Debug.Log("ScriptableObject/" + typeof(T).ToString());
+                    ScriptableObjectSingleton<T>.instance_ = Resources.Load<T>("ScriptableObject/" + typeof(T).ToString());
 
                     if (ScriptableObjectSingleton<T>.instance_ != null)
                     {

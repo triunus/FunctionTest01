@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public InventoryObject inventory;
+    [SerializeField]
+    private InventoryObject inventory;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -12,7 +13,7 @@ public class Player : MonoBehaviour
 
         if (item)
         {
-            inventory.AddItem(item.item, 1);
+            inventory.AddItem(item.ItemObject, 1);
             Destroy(other.gameObject);
         }
     }

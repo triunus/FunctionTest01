@@ -325,6 +325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 175815869ece7e74b993ce5fda9b4980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  STOStageReference:
+    stageDB_: {fileID: 11400000, guid: fb60f0b48762e4f448be3d7d87260b7b, type: 2}
 --- !u!4 &1652947101
 Transform:
   m_ObjectHideFlags: 0
@@ -462,7 +464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf9c2f1839c8d04f9027b8b3995f08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 67298b514a55b6e4584351e3c72438dc, type: 2}
 --- !u!54 &1860939133
 Rigidbody:
   m_ObjectHideFlags: 0

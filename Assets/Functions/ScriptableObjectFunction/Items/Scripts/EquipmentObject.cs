@@ -3,8 +3,10 @@
 [CreateAssetMenu(fileName = "New Equipment Object", menuName = "Inventory System/Items/Equipment")]
 public class EquipmentObject : ItemObject
 {
-    public float attackBonus;
-    public float defenceBonus;
+    [SerializeField]
+    private float attackBonus;
+    [SerializeField]
+    private float defenceBonus;
 
     private void Awake()
     {

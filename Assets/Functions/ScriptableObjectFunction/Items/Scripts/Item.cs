@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public ItemObject item;
+    private ItemObject itemObject_;
+
+    public ItemObject ItemObject
+    {
+        get { return this.itemObject_; }
+    }
 }
