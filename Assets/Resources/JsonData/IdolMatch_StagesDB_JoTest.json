@@ -1,0 +1,22 @@
+﻿[
+    {
+         "Index":0,
+         "LevelDBName":"IdolMatch_LevelDB_JoTest",
+         "LevelName":"NomalMap01"
+    },
+    {
+         "Index":1,
+         "LevelDBName":"IdolMatch_LevelDB_JoTest",
+         "LevelName":"NomalMap02"
+    },
+    {
+         "Index":2,
+         "LevelDBName":"IdolMatch_LevelDB_JoTest",
+         "LevelName":"NomalMap03"
+    },
+    {
+         "Index":3,
+         "LevelDBName":"IdolMatch_LevelDB_JoTest",
+         "LevelName":"HeartMap01"
+    }
+]

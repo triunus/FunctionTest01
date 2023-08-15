@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using System.IO;
+
+using UnityEngine;
 
 namespace JsonSystem
 {
@@ -24,5 +27,37 @@ namespace JsonSystem
                 return JsonReadingSingleton<T>.jsonString;
             }
         }
+
+/*        public static TextAsset ReadingJsonFileFromLocal
+        {
+            get
+            {
+                // 기존에, 해당 타입으로 구한 jsonString가 존재하지 않을 때 = true
+                if (JsonReadingSingleton<T>.jsonString == null)
+                {
+                    Debug.Log("JsonData/" + typeof(T).ToString());
+                    JsonReadingSingleton<T>.jsonString = Resources.Load("JsonData/" + typeof(T).ToString()) as TextAsset;
+                }
+
+                Debug.Log("Result Reading JsonFile : " + jsonString);
+                return JsonReadingSingleton<T>.jsonString;
+            }
+        }
+    }
+
+    public class ConvertJsonToTextAsset
+    {
+        public static TextAsset ReadJsonFile(string path)
+        {
+            byte[] array = Read(path);
+
+            Stream stream = new MemoryStream(Read(path), 0, array.Length);
+
+
+            byte[] array = this.Read(path);
+            return new MemoryStream(this.Read(path), 0, array.Length);
+
+            using (Stream stream = )
+        }*/
     }
 }
