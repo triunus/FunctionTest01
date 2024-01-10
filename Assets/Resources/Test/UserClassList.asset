@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: UserClassList
+  m_EditorClassIdentifier: Assembly-CSharp::UserClassList
+  userGroup:
+  - users:
+    - id_: a1
+      pw_: 11
+    - id_: a2
+      pw_: 22
+  - users:
+    - id_: b1
+      pw_: 33
+    - id_: b2
+      pw_: 44
+    - id_: 3
+      pw_: 55
+  - users:
+    - id_: c1
+      pw_: 66
+    - id_: c2
+      pw_: 77
+    - id_: c3
+      pw_: 88
+    - id_: c4
+      pw_: 99
